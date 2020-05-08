@@ -19,5 +19,7 @@ Step 1: Run the notebook "CLSciSumm_DataPreprocessing_ReadAnnotationFile" which 
  Step 2: Get full-text of reference articles (Shinka's code here)
  
  Step 3: Run the notebook "CLSciSumm_DataPreprocessing_SplitSentences" which contain the following functions:
-  + A function to read the "all_training_2018.csv" file and split reference text sentence by sentence based on <S> tag. 
+  + A function to read the "all_training_2018.csv" file and split reference text sentence by sentence based on <S> tag. Output of the function is a splited data file that contain citances from the original annotation file and reference text which were broken down into sentences. These would be positive samples of our data
   + Note: some data need manually check. 
+  
+  Step 4: Run the notebook "CLSciSumm_Preprocess_NegativeSamples" which contain the following functions
